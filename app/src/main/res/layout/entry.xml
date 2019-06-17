@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <ImageView
+            android:id="@+id/ivbuttonback"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btsingle" />
+
+        <TextView
+            android:id="@+id/tvsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:text="@string/play"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/ivbuttonback2"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ivbuttonback"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btsingle" />
+
+        <TextView
+            android:id="@+id/tvsettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:text="@string/about"
+            android:textColor="#000"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivvolume"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/vol" />
+
+    <ImageView
+        android:id="@+id/ivshare"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/share" />
+</RelativeLayout>

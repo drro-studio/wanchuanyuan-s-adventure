@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">万川源大冒险</string>
+    <string name="abc">“也没有做完这个APP”</string>
+    <string name="saomiao">扫描关注DrRo Studio微信公众号</string>
+    <string name="play">开始游戏</string>
+    <string name="about">关于</string>
+    <string name="hint">目前还没有做好...</string>
+    <string name="game1">万飞飞</string>
+    <string name="game2">万小鸟</string>
+    <string name="more">开发中</string>
+    <string name="dress">点击万飞飞给她换衣服</string>
+    <string name="meizizi">啊～美滋滋</string>
+    <string name="loading">加载中</string>
+    <string name="presstocontinue">点击继续</string>
+    <string name="presstoexit">再按一次退出</string>
+    <string name="jokingvolume">把手机摔在地上以关闭声音</string>
+    <string name="share">分享功能正加班制作中...</string>
+    <string name="wxnhint">以后会有各种东西掉下来</string>
+    <string name="qiexianfangcheng">切线方程？？</string>
+    <string name="geer">嗝~~~</string>
+</resources>
